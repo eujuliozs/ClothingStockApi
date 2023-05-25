@@ -1,5 +1,5 @@
 ﻿namespace ClothingApi.Model;
 
-public class T_Shirts : Clothes
+public class T_Shirt : Clothes
 {
 }

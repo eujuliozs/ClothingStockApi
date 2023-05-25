@@ -1,5 +1,5 @@
-﻿using Microsoft.Data.SqlClient;
-using System.Data;
+﻿using System.Data;
+using System.Data.SqlClient;
 using System.Runtime.CompilerServices;
 
 namespace ClothingApi.BuilderExtensions
@@ -12,6 +12,7 @@ namespace ClothingApi.BuilderExtensions
             builder.Services.AddScoped<IDbConnection>(provider =>
             {
                 var conn = new SqlConnection(connectionString);
+                conn.Open();
                 return conn;
             });
             return builder;

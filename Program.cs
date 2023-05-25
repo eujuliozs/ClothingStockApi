@@ -1,6 +1,7 @@
 using ClothingApi.BuilderExtensions;
 using ClothingApi.Data;
-using Microsoft.Data.SqlClient;
+using ClothingApi.Model;
+using System.Data.SqlClient;
 using System.Data;
 
 namespace ClothingApi;
@@ -14,6 +15,8 @@ public class Program
         // Add services to the container.
          
         builder.SetDatabase();
+
+        builder.Services.AddScoped<Repository>();
 
         builder.Services.AddControllers();
 
