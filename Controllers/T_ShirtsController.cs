@@ -34,11 +34,15 @@ namespace ClothingApi.Controllers
         public async Task<ActionResult> Patch(int id,[FromQuery] T_Shirt? t_shirt)
         {
             PropertyInfo[] properties = typeof(T_Shirt).GetProperties();
-            
-            foreach(PropertyInfo prop in properties)
+
+            T_Shirt tee = await repository.GetByIdAsync<T_Shirt>(id);
+
+            if(tee is null)
             {
-                   
+                return StatusCode(400);
             }
+
+
 
             return Ok(t_shirt.Name);
         }

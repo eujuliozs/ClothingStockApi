@@ -29,18 +29,51 @@ namespace ClothingApi.Model
             connection.Close();
         }
         
-        public async Task PatchAsync<T>(int id, T t_Shirt) where T : class
+        public async Task<T> GetByIdAsync<T>(int id) where T : class
         {
-            T obj = await connection.GetAsync<T>(id);
-            PropertyInfo[] properties = t_Shirt.GetType().GetProperties();
+            return await connection.GetAsync<T>(id);
+            
+        }
+        
+        public async Task PatchAsync<T>(int id, T t_Shirt) where T : Clothes
+        {
+            T obj = GetByIdAsync<T>(id).Result;
 
+            PropertyInfo[] properties = t_Shirt.GetType().GetProperties();
+            int cont = 0;
             foreach (PropertyInfo prop in properties) 
             {
+                cont++;
                 if (prop != null) 
                 {
-                    
+                    if(cont == 1)
+                    {
+                        obj.Id = (int)prop.GetValue(t_Shirt);
+                    }
+                    if(cont == 2)
+                    {
+                        obj.Name = prop.GetValue(t_Shirt).ToString();
+                    }
+                    if(cont == 3)
+                    {
+                        obj.size = (int)prop.GetValue(t_Shirt);
+                    }
+                    if(cont == 4)
+                    {
+                        obj.color = prop.GetValue(t_Shirt).ToString();
+                    }
+                    if(cont == 5)
+                    {
+                        obj.Description = prop.GetValue(t_Shirt).ToString();
+                    }
+                    if(cont == 5)
+                    {
+                        obj.ImageUrl = prop.GetValue(t_Shirt).ToString();
+                    }
                 }
             }
+            connection.Update(obj);
+            connection.Close();
         }
     }
 }
