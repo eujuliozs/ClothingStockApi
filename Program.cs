@@ -15,9 +15,7 @@ public class Program
          
         builder.SetDatabase();
 
-      //  builder.Services.AddScoped<Repository>();
-
-        builder.Services.AddScoped<T_ShirtRepository>();
+        builder.Services.AddScoped<Repository>();
 
         builder.Services.AddControllers();
 

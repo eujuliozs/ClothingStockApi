@@ -10,9 +10,9 @@ namespace ClothingApi.Controllers
     [ApiController]
     public class T_ShirtsController : ControllerBase
     {
-        private readonly T_ShirtRepository repository;
+        private readonly Repository repository;
 
-        public T_ShirtsController(T_ShirtRepository repo)
+        public T_ShirtsController(Repository repo)
         {
             repository = repo;
         }
