@@ -12,48 +12,24 @@ namespace ClothingApi.Data
         }
         public async Task PatchAsync(int id, T_Shirt t_Shirt)
         {
-            T_Shirt obj = GetByIdAsync<T_Shirt>(id).Result;
-            PropertyInfo[] properties = t_Shirt.GetType().GetProperties();
-            int cont = 0;
-            foreach (PropertyInfo prop in properties)
+            T_Shirt DatabaseObj = GetByIdAsync<T_Shirt>(id).Result;
+
+            PropertyInfo[] DatabaseObj_reflection = DatabaseObj.GetType().GetProperties();
+
+            PropertyInfo[] InputObj_reflection = t_Shirt.GetType().GetProperties();
+
+            for(int i = 0;i < InputObj_reflection.Length; i++)
             {
-                cont++;
-                if (prop.GetValue(t_Shirt) != null)
+                if (InputObj_reflection[i].GetValue(t_Shirt) != null)
                 {
-                    if (cont == 1)
-                    {
-                        obj.Id = (int)prop.GetValue(t_Shirt);
-                    }
-                    if (cont == 2)
-                    {
-                        var Foreign_objPROP = prop.GetValue(t_Shirt).ToString();
-                        obj.Name = Foreign_objPROP;
-                    }
-                    if (cont == 3)
-                    {
-                        obj.size = (int)prop.GetValue(t_Shirt);
-                    }
-                    if (cont == 4)
-                    {
-                        obj.color = prop.GetValue(t_Shirt)?.ToString();
-                    }
-                    if (cont == 5)
-                    {
-                        obj.Description = prop.GetValue(t_Shirt)?.ToString();
-                    }
-                    if (cont == 6)
-                    {
-                        obj.ImageUrl = prop.GetValue(t_Shirt)?.ToString();
-                    }
+                    PropertyInfo DatabaseObjprop = Array.Find(DatabaseObj_reflection, prop => prop.Name == InputObj_reflection[i].Name);
+
+                    object valorPropriedadeOrigem = InputObj_reflection[i].GetValue(t_Shirt);
+                    DatabaseObjprop.SetValue(DatabaseObj, valorPropriedadeOrigem);
                 }
             }
-
-            obj.Id = id;
-            await connection.UpdateAsync<T_Shirt>(obj);
-            await Console.Out.WriteLineAsync(obj.ToString());
-            Console.WriteLine(obj.ToString());
-            connection.Close();
-
+            DatabaseObj.Id = id;
+            await connection.UpdateAsync(DatabaseObj);
         }
     }
 }
