@@ -1,4 +1,5 @@
-﻿using ClothingApi.Model;
+﻿using ClothingApi.Data;
+using ClothingApi.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection;
@@ -9,9 +10,9 @@ namespace ClothingApi.Controllers
     [ApiController]
     public class T_ShirtsController : ControllerBase
     {
-        private readonly Repository repository;
+        private readonly T_ShirtRepository repository;
 
-        public T_ShirtsController(Repository repo)
+        public T_ShirtsController(T_ShirtRepository repo)
         {
             repository = repo;
         }
@@ -35,16 +36,13 @@ namespace ClothingApi.Controllers
         {
             PropertyInfo[] properties = typeof(T_Shirt).GetProperties();
 
-            T_Shirt tee = await repository.GetByIdAsync<T_Shirt>(id);
-
-            if(tee is null)
+            if(await repository.GetByIdAsync<T_Shirt>(id) is null)
             {
                 return StatusCode(400);
             }
+            await repository.PatchAsync(id, t_shirt);
 
-
-
-            return Ok(t_shirt.Name);
+            return StatusCode(201, await repository.GetByIdAsync<T_Shirt>(id));
         }
 
     }

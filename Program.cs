@@ -1,6 +1,5 @@
 using ClothingApi.BuilderExtensions;
 using ClothingApi.Data;
-using ClothingApi.Model;
 using System.Data.SqlClient;
 using System.Data;
 
@@ -16,7 +15,9 @@ public class Program
          
         builder.SetDatabase();
 
-        builder.Services.AddScoped<Repository>();
+      //  builder.Services.AddScoped<Repository>();
+
+        builder.Services.AddScoped<T_ShirtRepository>();
 
         builder.Services.AddControllers();
 
