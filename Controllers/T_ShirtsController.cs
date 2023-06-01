@@ -1,5 +1,6 @@
 ﻿using ClothingApi.Data;
 using ClothingApi.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection;
@@ -8,6 +9,7 @@ namespace ClothingApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class T_ShirtsController : ControllerBase
     {
         private readonly Repository repository;
@@ -22,6 +24,12 @@ namespace ClothingApi.Controllers
         {
             IEnumerable<T_Shirt> t_Shirts = await repository.GetAllAsync<T_Shirt>();
             return Ok(t_Shirts);
+        }
+        [HttpGet("{id}")]
+        public async Task<ActionResult> GetById(int id)
+        {
+            T_Shirt query = repository.GetByIdAsync<T_Shirt>(id).Result;
+            return Ok(query);
         }
 
         [HttpPost]
@@ -43,6 +51,18 @@ namespace ClothingApi.Controllers
             await repository.PatchAsync(id, t_shirt);
 
             return StatusCode(201, await repository.GetByIdAsync<T_Shirt>(id));
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> Put(T_Shirt t_Shirt)
+        {
+            if(t_Shirt is null)
+            {
+                return StatusCode(400);
+            }
+
+            await repository.AddAsync(t_Shirt);
+            return CreatedAtAction(nameof(GetById), new {t_Shirt.Id}, t_Shirt);
         }
 
     }

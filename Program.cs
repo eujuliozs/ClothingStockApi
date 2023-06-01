@@ -2,6 +2,7 @@ using ClothingApi.BuilderExtensions;
 using ClothingApi.Data;
 using System.Data.SqlClient;
 using System.Data;
+using ClothingApi.Extensions;
 
 namespace ClothingApi;
 
@@ -17,18 +18,25 @@ public class Program
 
         builder.Services.AddScoped<Repository>();
 
+        builder.AddJwtBearer();
+
         builder.Services.AddControllers();
 
         var app = builder.Build();
 
+        app.LoginEndPoints();
+
         // Configure the HTTP request pipeline.
 
         app.UseHttpsRedirection();
+
+        app.UseAuthentication();
 
         app.UseAuthorization();
 
         app.MapControllers();
 
         app.Run();
+
     }
 }

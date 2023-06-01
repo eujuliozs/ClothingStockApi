@@ -1,6 +1,7 @@
-﻿namespace ClothingApi.Model;
+﻿using System.Runtime.CompilerServices;
 
-public class T_Shirt : Clothes
+namespace ClothingApi.Model;
+
+public class T_Shirt : Clothes 
 {
-
 }

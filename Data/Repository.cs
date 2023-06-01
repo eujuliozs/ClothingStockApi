@@ -34,7 +34,7 @@ namespace ClothingApi.Data
 
         }
 
-        public async Task PatchAsync<T>(int id, T Entry_Object) where T : Clothes
+        public async Task PatchAsync<T>(int id, T Entry_Object) where T : Entity
         {
             //acha a entidade do id passado no banco de dados
             T Database_Entity = GetByIdAsync<T>(id).Result;
@@ -57,10 +57,12 @@ namespace ClothingApi.Data
                     MatchingOriginProperty.SetValue(Database_Entity, OriginPropertyValue);
                 }
             }
+
             Database_Entity.Id = id;
             await connection.UpdateAsync(Database_Entity);
             connection.Close();
         }
+
     }
     
 }
