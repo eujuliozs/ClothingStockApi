@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ClothingApi.Extensions
 {
-    public static class WebApplicationExtensions
+    public static class ApplicationExtensions
     {
         public static WebApplication LoginEndPoints(this WebApplication app)
         {

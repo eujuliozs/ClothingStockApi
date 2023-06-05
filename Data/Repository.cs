@@ -54,13 +54,20 @@ namespace ClothingApi.Data
 
                     object OriginPropertyValue = OriginProperties[i].GetValue(Entry_Object);
                     //
-                    MatchingOriginProperty.SetValue(Database_Entity, OriginPropertyValue);
+                    if(MatchingOriginProperty.GetValue(Entry_Object) != null)
+                    {
+                        MatchingOriginProperty.SetValue(Database_Entity, OriginPropertyValue);
+                    }
                 }
             }
-
+            
             Database_Entity.Id = id;
             await connection.UpdateAsync(Database_Entity);
             connection.Close();
+        }
+        public async Task DeleteAsync<T>(T obj)  where T : class
+        {
+            await connection.DeleteAsync<T>(obj);
         }
 
     }

@@ -3,6 +3,7 @@ using ClothingApi.Data;
 using System.Data.SqlClient;
 using System.Data;
 using ClothingApi.Extensions;
+using ClothingApi.Validations;
 
 namespace ClothingApi;
 
@@ -16,7 +17,7 @@ public class Program
          
         builder.SetDatabase();
 
-        builder.Services.AddScoped<Repository>();
+
 
         builder.AddJwtBearer();
 

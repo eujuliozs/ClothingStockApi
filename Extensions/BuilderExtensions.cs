@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using Microsoft.IdentityModel.Tokens;
 using System.Runtime.CompilerServices;
 using System.Text;
+using ClothingApi.Data;
 
 namespace ClothingApi.BuilderExtensions
 {
@@ -17,10 +18,11 @@ namespace ClothingApi.BuilderExtensions
             {
                 var conn = new SqlConnection(connectionString);
                 conn.Open();
+                
                 return conn;
             });
 
-
+            builder.Services.AddScoped<Repository>();
             return builder;
         }
         public static WebApplicationBuilder AddJwtBearer(this WebApplicationBuilder builder)

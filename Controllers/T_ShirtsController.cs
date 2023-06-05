@@ -25,7 +25,7 @@ namespace ClothingApi.Controllers
             IEnumerable<T_Shirt> t_Shirts = await repository.GetAllAsync<T_Shirt>();
             return Ok(t_Shirts);
         }
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult> GetById(int id)
         {
             T_Shirt query = repository.GetByIdAsync<T_Shirt>(id).Result;
@@ -63,6 +63,18 @@ namespace ClothingApi.Controllers
 
             await repository.AddAsync(t_Shirt);
             return CreatedAtAction(nameof(GetById), new {t_Shirt.Id}, t_Shirt);
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            T_Shirt T_Shirt = await repository.GetByIdAsync<T_Shirt>(id);
+            if (T_Shirt == null)
+            {
+                return StatusCode(404, new { Message = "Not Entity In database with such id" });
+            }
+            await repository.DeleteAsync(T_Shirt);
+            return StatusCode(204, T_Shirt);
         }
 
     }
