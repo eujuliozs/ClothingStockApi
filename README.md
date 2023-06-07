@@ -4,11 +4,32 @@
 # Sobre o Projeto
   Uma Web Api Restful Back End, criada para fins de aprendizado que simula um stock de loja Usando Asp.Net Core
   
-# Tecnologias
+## Tecnologias
 <div style="display: inline_block"><br>
   <img align-="center" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
   <img align-="center" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original-wordmark.svg" />
   <img align-="center" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" />
   <img align-="center" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" />
-
 </div>
+
+## Relacionamento das classes
+
+
+    +-------------------+
+    |      Entity       |
+    +-------------------+
+    | - Id: int         |
+    +-------------------+
+             ^
+             |
+    +------------------------+
+    |      Clothes           |
+    +------------------------+
+    | - Name: string?        |  
+    | - Stock: int?          |   
+    | - Color: string?       |  
+    | - Description: string? |
+    | - ImageUrl: string?    |
+    | - Size: string?        |
+    +------------------------+
+
