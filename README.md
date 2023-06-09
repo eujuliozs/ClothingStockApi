@@ -32,4 +32,9 @@
     | - ImageUrl: string?    |
     | - Size: string?        |
     +------------------------+
+   
+#Endpoints
+Endpoints são as Urls Pelas quais a API pode ser consumida
+## Login
+
 
