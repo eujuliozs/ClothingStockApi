@@ -39,7 +39,7 @@ Endpoints são as Urls Pelas quais a API pode ser consumida
 O usuário precisa se logar com este usuário e senha para que um JWT(Json Web Token) seja gerado,
 e garanta que apenas usuários autenticados possam acessar os EndPoints da Api
 
-<img src="https://github.com/eujuliozs/ClothingStockApi/blob/master/Assets/Login.png" height=350 width=300>
+<img src="https://github.com/eujuliozs/ClothingStockApi/blob/master/Assets/Login.png" height=348 width=374>
 
 ### Create
 
