@@ -14,6 +14,8 @@
 
 ## Relacionamento das classes
 
+Tenho mais duas classes não demonstradas. São elas T Shirts e Shorts. Essas só herdam e ultilizam a classe clothes.
+
 
     +-------------------+
     |      Entity       |
