@@ -33,8 +33,8 @@
     | - Size: string?        |
     +------------------------+
     
-# Endpoints
-Endpoints são as Urls Pelas quais a API pode ser consumida
+# Jwt
+
 ### Login
 O usuário precisa se logar com este usuário e senha para que um JWT(Json Web Token) seja gerado,
 e garanta que apenas usuários autenticados possam acessar os EndPoints da Api
