@@ -40,14 +40,5 @@ O usuário precisa se logar com este usuário e senha para que um JWT(Json Web T
 e garanta que apenas usuários autenticados possam acessar os EndPoints da Api
 
 <img src="https://github.com/eujuliozs/ClothingStockApi/blob/master/Assets/Login.png" height=348 width=374>
+(Token)
 
-### Create
-
-<img src="https://github.com/eujuliozs/ClothingStockApi/blob/master/Assets/Post.png" width=388 height=341>
-
-### Read
-<img src="https://github.com/eujuliozs/ClothingStockApi/tree/master/Assets/Get.png"  width=100 height=100>
-
-### Update
-
-<img src="https://github.com/eujuliozs/ClothingStockApi/tree/master/Assets/Patch.png"  width=599 height=557>
