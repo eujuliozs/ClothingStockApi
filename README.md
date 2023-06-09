@@ -40,9 +40,13 @@ O usuário precisa se logar com este usuário e senha para que um JWT(Json Web T
 e garanta que apenas usuários autenticados possam acessar os EndPoints da Api
 
 <img src="https://github.com/eujuliozs/ClothingStockApi/blob/master/Assets/Login.png" height=350 width=300>
-
-## CRUD Endpoints
+## CRUD
+CRUD são as operações básicas de um banco de dados
 
 ### Create
-img
 
+<img src="https://github.com/eujuliozs/ClothingStockApi/blob/master/Assets/Post.png" width=541 height=547>
+isso ai
+### Read
+
+<img src="(https://github.com/eujuliozs/ClothingStockApi/tree/master/Assets/Get.png)"  width=599 height=557>
