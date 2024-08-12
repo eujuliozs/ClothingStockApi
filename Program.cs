@@ -17,6 +17,14 @@ public class Program
          
         builder.SetDatabase();
 
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowSpecificOrigin",
+                builder => builder
+                    .WithOrigins("http://localhost:3000")
+                    .AllowAnyHeader()
+                    .AllowAnyMethod());
+        });
 
 
         builder.AddJwtBearer();
@@ -29,6 +37,7 @@ public class Program
 
         // Configure the HTTP request pipeline.
 
+
         app.UseHttpsRedirection();
 
         app.UseAuthentication();
@@ -36,6 +45,8 @@ public class Program
         app.UseAuthorization();
 
         app.MapControllers();
+
+        app.UseCors();
 
         app.Run();
 

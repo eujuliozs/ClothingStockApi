@@ -1,0 +1,366 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\controllers\\t_shirtscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:controllers\\t_shirtscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\model\\clothes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:model\\clothes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|c:\\users\\julio\\source\\repos\\clothingstockapi\\clothingstockapi\\extensions\\builderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:extensions\\builderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|c:\\users\\julio\\source\\repos\\clothingstockapi\\clothingstockapi\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\extensions\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:extensions\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\properties\\servicedependencies\\clothingstock - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:properties\\servicedependencies\\clothingstock - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\clothingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:clothingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\model\\short.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:model\\short.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\model\\t-shirt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:model\\t-shirt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\model\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:model\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\controllers\\shortscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:controllers\\shortscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\validations\\sizevalidationatributte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:validations\\sizevalidationatributte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724F9196-8B5E-483B-B7D3-1264BA31447D}|ClothingApi.csproj|solutionrelative:model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Clothes.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Model\\Clothes.cs",
+              "RelativeDocumentMoniker": "Model\\Clothes.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Model\\Clothes.cs",
+              "RelativeToolTip": "Model\\Clothes.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:34:11.477Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "appsettings.Production.json",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\appsettings.Production.json",
+              "RelativeToolTip": "appsettings.Production.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-19T17:27:22.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-30T06:10:45.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-05T18:19:02.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "T_ShirtsController.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Controllers\\T_ShirtsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\T_ShirtsController.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Controllers\\T_ShirtsController.cs",
+              "RelativeToolTip": "Controllers\\T_ShirtsController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAuwFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:27:07.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Data\\Repository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Data\\Repository.cs",
+              "RelativeToolTip": "Data\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:55:02.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Extensions\\BuilderExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\BuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Extensions\\BuilderExtensions.cs",
+              "RelativeToolTip": "Extensions\\BuilderExtensions.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:18:38.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Data\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Data\\ApplicationContext.cs",
+              "RelativeToolTip": "Data\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T18:07:14.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-19T17:24:15.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Extensions\\ApplicationExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ApplicationExtensions.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Extensions\\ApplicationExtensions.cs",
+              "RelativeToolTip": "Extensions\\ApplicationExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:02:21.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAIAwwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T05:59:07.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClothingApi",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\ClothingApi.csproj",
+              "RelativeDocumentMoniker": "ClothingApi.csproj",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\ClothingApi.csproj",
+              "RelativeToolTip": "ClothingApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-10T20:16:43.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "profile.arm.json",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Properties\\ServiceDependencies\\ClothingStock - Web Deploy\\profile.arm.json",
+              "RelativeDocumentMoniker": "Properties\\ServiceDependencies\\ClothingStock - Web Deploy\\profile.arm.json",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Properties\\ServiceDependencies\\ClothingStock - Web Deploy\\profile.arm.json",
+              "RelativeToolTip": "Properties\\ServiceDependencies\\ClothingStock - Web Deploy\\profile.arm.json",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-10T20:17:18.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T22:59:49.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Model\\UserModel.cs",
+              "RelativeToolTip": "Model\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:51:48.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Services\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Services\\ITokenService.cs",
+              "RelativeToolTip": "Services\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:18:56.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SizeValidationAtributte.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Validations\\SizeValidationAtributte.cs",
+              "RelativeDocumentMoniker": "Validations\\SizeValidationAtributte.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Validations\\SizeValidationAtributte.cs",
+              "RelativeToolTip": "Validations\\SizeValidationAtributte.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:34:17.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "T-Shirt.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Model\\T-Shirt.cs",
+              "RelativeDocumentMoniker": "Model\\T-Shirt.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Model\\T-Shirt.cs",
+              "RelativeToolTip": "Model\\T-Shirt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:36:28.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Short.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Model\\Short.cs",
+              "RelativeDocumentMoniker": "Model\\Short.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Model\\Short.cs",
+              "RelativeToolTip": "Model\\Short.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:35:48.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ShortsController.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Controllers\\ShortsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShortsController.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Controllers\\ShortsController.cs",
+              "RelativeToolTip": "Controllers\\ShortsController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:29:36.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Model\\Entity.cs",
+              "RelativeDocumentMoniker": "Model\\Entity.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\ClothingStockAPI\\ClothingStockApi\\Model\\Entity.cs",
+              "RelativeToolTip": "Model\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:34:26.405Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

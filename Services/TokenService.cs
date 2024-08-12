@@ -17,10 +17,10 @@ namespace ClothingApi.Services
                 Guid.NewGuid().ToString())
             };
 
-            SymmetricSecurityKey security = new (Encoding.UTF8.GetBytes(key));
+            SymmetricSecurityKey security = new(Encoding.UTF8.GetBytes(key));
             var credential = new SigningCredentials(security, SecurityAlgorithms.HmacSha256);
 
-            JwtSecurityToken token = new (
+            JwtSecurityToken token = new(
                 claims: claims,
                 issuer: issuer,
                 audience: audience,

@@ -1,26 +1,33 @@
 ﻿using ClothingApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Data;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using Microsoft.IdentityModel.Tokens;
 using System.Runtime.CompilerServices;
 using System.Text;
 using ClothingApi.Data;
-
+ 
 namespace ClothingApi.BuilderExtensions
 {
     public static class WebApplicationBuilderExtensions
     {
         public static WebApplicationBuilder SetDatabase(this WebApplicationBuilder builder)
         {
-            string connectionString = builder.Configuration.GetConnectionString("Default");
-            builder.Services.AddScoped<IDbConnection>(provider =>
+            try
             {
-                var conn = new SqlConnection(connectionString);
-                conn.Open();
-                
-                return conn;
-            });
+                string connectionString = builder.Configuration.GetConnectionString("Default");
+                builder.Services.AddScoped<IDbConnection>(provider =>
+                {
+                    var conn = new SqlConnection(connectionString); 
+                    conn.Open();
+
+                    return conn;
+                });
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.ToString());
+            }
 
             builder.Services.AddScoped<Repository>();
             return builder;

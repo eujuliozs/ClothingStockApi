@@ -7,14 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="WebAppExtensions\" />
+	  <Folder Include="Controllers\" />
+	  <Folder Include="Data " />
+	  <Folder Include="Extensions " />
+	  <Folder Include="Services\" />
+	  <Folder Include="Validations" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.78" />
     <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.15" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="Microsoft.Data.SqlClient.SNI.runtime" Version="5.2.0" />
   </ItemGroup>
 
 </Project>
