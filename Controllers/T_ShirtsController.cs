@@ -42,7 +42,6 @@ namespace ClothingApi.Controllers
         [HttpPatch("{id:int}")]
         public async Task<ActionResult> Patch(int id,[FromQuery] T_Shirt? t_shirt)
         {
-            PropertyInfo[] properties = typeof(T_Shirt).GetProperties();
 
             if(await repository.GetByIdAsync<T_Shirt>(id) is null)
             {
