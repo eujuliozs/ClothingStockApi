@@ -10,6 +10,7 @@
 	  <Folder Include="Controllers\" />
 	  <Folder Include="Data " />
 	  <Folder Include="Extensions " />
+	  <Folder Include="Properties\PublishProfiles\" />
 	  <Folder Include="Services\" />
 	  <Folder Include="Validations" />
   </ItemGroup>

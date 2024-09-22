@@ -3,13 +3,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ClothingApi.Model;
 
-public abstract class Clothes : Entity
+public class Clothes : Entity
 {
     public string? Name { get; set; }
     public int? Stock { get; set; }
     public string? Color { get; set; }
     public string? Description { get; set; }
     public string? ImageUrl { get; set; }
+    public string? Type { get; set; }
 
     [SizeValidation]
     public string? Size { get; set; }
